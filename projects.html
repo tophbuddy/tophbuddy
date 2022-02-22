@@ -10,7 +10,7 @@
   <body>
 
     <header class="navbar">
-      <ul>
+      <ul class="navbar-text">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./projects.html">Projects</a></li>
         <li><a href="./hobbies.html">Hobbies</a></li>
@@ -18,9 +18,100 @@
       </ul>
     </header>
 
-    <h1>MSCS Projects</h1>
+    <div class="project-page-content">
+      <h1>MSCS Projects</h1>
+      <div class="project-container">
+        <div class="project-container-item">
+            <div class="project-name">Book Recommender</div>
+            <div class="project-details">
+              <ul>
+                <li>Application that recommended books from the Seattle Public
+                  Library based on user provided preferences
+                </li>
+                <li>
+                  Utilized SQL to create the book database and pulled data directly
+                  from the Seattle Public Library
+                </li>
+                <li>
+                  Used JSP to display query results on simple webpage
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
 
+      <div class="project-container">
+          <div class="project-container-item">
+            <div class="project-name">Checkers Game</div>
+              <div class="project-details">
+                <ul>
+                  <li>
+                    Simple Python-based checkers game with a simple AI to play 
+                    against, AI behavior algorithm designed by myself
+                  </li>
+                  <li>
+                    Implemented the whole game with Python classes and the 
+                    Python library, Turtle, for designing and representing the 
+                    UI
+                  </li>
+                  <li>
+                    Formulated the back‐end data structure to store checker 
+                    piece positions and game board
+                  </li>
+                </ul>
+              </div>
+          </div>  
+      </div>
 
+      <div class="project-container">
+        <div class="project-container-item">
+          <div class="project-name">Library Book and Music Collection</div>
+            <div class="project-details">
+              <ul>
+                <li>
+                  Small project that was focused on the back-end logic of an 
+                  application that tracks a library&apos;s collection of books 
+                  and music
+                </li>
+                <li>
+                  Utilized object‐oriented design approach, and took advantage 
+                  of UML diagram to come up with design for classes and their
+                  relationships based on user scenarios
+                </li>
+                <li>
+                  Enabled the collection to be queried based on various criteria
+                </li>
+              </ul>
+            </div>
+        </div>  
+      </div>
+
+    <div class="project-container">
+      <div class="project-container-item">
+        <div class="project-name">To Do List Mobile Application</div>
+          <div class="project-details">
+            <ul>
+              <li>
+                An Android mobile app that allows the user to save, edit, and 
+                set reminders for tasks to complete
+              </li>
+              <li>
+                Implemented data persistence utilizing a Room database and SQL 
+                lite following android development clean architecture design
+              </li>
+              <li>
+                Employed the use of Fragments and a Recycler view to create 
+                a better UI experience
+              </li>
+            </ul>
+            <span>
+              <a href="https://github.com/tophbuddy/cs5520_cholzheu_projects/tree/main/CS5520/TodoApp">GitHub Repo Link</a>
+            </span>
+          </div>
+      </div>  
+    </div>
+
+    </div>
   </body>
 
 </html>
